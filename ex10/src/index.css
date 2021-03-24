@@ -65,7 +65,7 @@ img {
   margin-left: -20px;
 }
 
-#introduction code {
+#main-doc #introduction code {
   background-color: #fafafa;
   display: block;
   padding-left: 100px;
@@ -73,7 +73,7 @@ img {
   height: 170px;
 }
 
-#values_types_and_operators code {
+#main-doc #values_types_and_operators code {
   background-color: #fafafa;
   display: block;
   padding-left: 50px;
@@ -82,16 +82,16 @@ img {
   word-spacing: 11px;
   text-align: left;
 }
-#values_types_and_operators code::first-line {
+#main-doc #values_types_and_operators code::first-line {
   text-indent: 7px;
   word-spacing: 15px;
 }
 
-#program_structure header {
+#main-doc #program_structure header {
   padding-top: 15px;
 }
 
-#functions code {
+#main-doc #functions code {
   background-color: #fafafa;
   display: block;
   padding-left: 50px;
