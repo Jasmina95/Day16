@@ -6,7 +6,7 @@ class Person {
   }
 
   getPerson() {
-    let personInfo = "Name: " + this.name + ", email: " + this.email + ", age: " + this.age;
+    let personInfo = `Name: ${this.name}, email: ${this.email}, age: ${this.age}`;
     return personInfo;
   }
 }
