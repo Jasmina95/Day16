@@ -11,7 +11,7 @@ class Microsoft {
 
   //setter
   set name(newName) {
-    this._title = newName;
+    this._name = newName;
   }
 
   occupation() {
