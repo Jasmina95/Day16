@@ -6,7 +6,7 @@ class Pets {
   }
 
   walk() {
-    let numberOfLegs = this.name + " is walking on " + this.legs + " legs";
+    let numberOfLegs = `${this.name} is walking on ${this.legs} legs`;
     return numberOfLegs;
   }
 }
@@ -17,7 +17,7 @@ class Dog extends Pets {
   }
 
   bark() {
-    let dogSay = this.name + " says WUF-WUF";
+    let dogSay = `${this.name} says WUF-WUF`;
     return dogSay;
   }
 }
